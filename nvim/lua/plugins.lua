@@ -6,6 +6,8 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
-  use 'folke/tokyonight.nvim'
+  use 'ThePrimeagen/vim-be-good'
+  use {'neoclide/coc.nvim', branch = 'release'}
 end)
+
 
