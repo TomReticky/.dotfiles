@@ -11,3 +11,7 @@ vim.keymap.set("n", "N", "Nzzzv")
 
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
+vim.keymap.set("n", "<leader>i", [[:vsplit | terminal ipython3<esc><C-w>r:vertical resize -30<esc>]])
+
+vim.keymap.set("t", "<esc>", "<C-\\><C-N>")
+
