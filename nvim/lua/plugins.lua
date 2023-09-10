@@ -7,7 +7,6 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
     use 'ThePrimeagen/vim-be-good'
-    use 'github/copilot.vim'
     use({
         'rose-pine/neovim',
         as = 'rose-pine',
